@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="ACTUAL TO DO LIST.CSS">
+    <script src="ACTUAL TTO DO LIST.JS"></script>
+</head>
+<body>
+    <h2>To Do List</h2>
+    <div class="To-Do-List">
+        <div>
+            <input type="text" placeholder="Add Work" class="input-element-js input-element" onkeydown="Check(event)">
+        </div>
+        <div>
+            <input type="time" class="input-date-js input-element" onkeydown="Check(event)">
+        </div>
+        <button onclick="add()" class="Add-button">
+            Add
+        </button>
+    </div>
+
+    <div class="show-work"></div>
+</body>
+</html>
